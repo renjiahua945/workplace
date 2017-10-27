@@ -1,7 +1,7 @@
 var x,y;		//��굱ǰ��ҳ���ϵ�λ��
 var step=10;	//�ַ���ʾ��࣬Ϊ�˺ÿ���step=0���ַ���ʾû�м��
-var message="我终于等到你，我爱你！";		//�������Ҫ��ʾ���ַ�
-message=message.split("  ");	//���ַ�ָ�Ϊ�ַ�����
+var message="I had waited for u，I love you！";		//�������Ҫ��ʾ���ַ�
+message=message.split("");	//���ַ�ָ�Ϊ�ַ�����
 
 var xpos=new Array()		//�洢ÿ���ַ��xλ�õ�����
 for (i=0;i<message.length;i++) {
