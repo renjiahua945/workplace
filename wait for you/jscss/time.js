@@ -1,7 +1,7 @@
 function showTime() { 7
 	var currentDate = new Date(); 
-	var startDate = new Date(2017, 11, 21);
-	var date3 = currentDate-startDate+31;
+	var startDate = new Date(2017, 10, 20);
+	var date3 = currentDate-startDate;
 	var days=Math.floor(date3/(24*3600*1000));
 	var leave1=date3%(24*3600*1000);     //���������ʣ��ĺ�����
 	var hours=Math.floor(leave1/(3600*1000));
